@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(t2.jpg);
+    background-size: 100% 740px;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    color: white;
+    background-color: black;
+    margin-left: 36%;
+    margin-top: 7%;
+    text-align: center;
+    padding: 20px;
+    border:2px solid yellow;
+    border-radius: 10px;
+}
+.box{
+    position: relative;
+    top: 7%;
+}
+.inp1{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: black;
+    outline: none;
+    width: 250px;
+    font-size: 22px;
+    margin-top: 40px;
+    color: white;
+}
+.inp2{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: black;
+    outline: none;
+    width: 250px;
+    font-size: 22px;
+    margin-top: 40px;
+    color: white;
+}
+p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+p span{
+    color: aqua;
+    cursor: pointer;
+}
+button{
+    margin: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: aqua;
+
+}
+.p2{
+    margin-bottom: 100px;
+    color: blue;
+}
+button:hover{
+    background-color: rgb(236, 88, 29);
+    color: black;
+    width:260px;
+    transition: all 2s ease-in;
+
+}
+h1{
+    text-decoration:underline;
+    
+}

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+
+.form-section {
+    /* padding: 2em; */
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    box-shadow: rgba(232, 36, 88, 0.25) 0px 14px 28px, rgba(239, 16, 16, 0.22) 0px 10px 10px;
+
+    .form-content {
+        background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        width: 495px;
+        height: 395px;
+
+        .name-section,
+        .email-input,
+        .message-input,
+        .subject-input,
+        .button {
+            padding-top: 20px;
+            padding-left: 20px;
+            font-size: 18px;
+
+        }
+    }
+
+    .form-header {
+        width: 495px;
+        height: 100px;
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        padding-left: 35px;
+        padding-top: 20px;
+        border-bottom: 1px solid black;
+
+    }
+
+}
+
+.form-content .name-section input {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.form-content .email-input input {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.form-content .subject-input input {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.form-content .message-input textarea {
+    width: 400px;
+    font-size: 16px;
+    color: rgb(156, 156, 156);
+    padding-left: 10px;
+
+}
+
+.form-content .button button {
+    background-color: #00f2fe;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-content .button button:hover {
+    background-color: green;
+    color: black;
+}
+
+.form-content .button {
+    padding-left: 20px;
+    font-size: 18px;
+
+}

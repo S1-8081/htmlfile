@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            border: 3px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div>
+        <label for="first name">Enter first name</label>
+        <input type="text" id="first name">
+    </div>
+    <div>
+        <label for="last name">Enter last name</label>
+        <input type="text" id="last name">
+    </div> 
+    <div>
+        <label for="emailid"> Enter your email</label>
+        <input type="email" id="emailid">
+    </div>
+    <div>
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" >
+    </div>
+    <div>
+        <label for="confirm password">Confirm password</label>
+        <input type="password" id="confirm password">
+    </div>
+    <div>
+        <label for="age">Enter your age</label>
+        <input type="number" id="age" max="150" min="0">
+    </div>
+    <div>
+        <label for="gender">Gender</label>
+        <input type="gender" id="gender">
+        <select name="Gender" id="gender">
+            <option value="male"></option>
+            <option value="female"></option>
+        </select>
+    </div>
+    <div>
+        <label for="Confirmation">Agree Terms and conditions.</label>
+        <input type="radio" id="Confirmation">
+    </div>
+    <div>
+        <input type="button" id="submit" placeholder="Submit">
+    </div>
+</div>
+</body>
+</html>
